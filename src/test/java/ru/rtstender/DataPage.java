@@ -61,6 +61,9 @@ public class DataPage {
         nextPageBtn.click();
     }
 
+    public String getNextPageBtnClass() { return nextWrappedPageBtn.getAttribute("class"); }
+
+
     //локатор для номера ЕИС
     @FindBy(xpath = "//*[contains(@id, 'BaseMainContent_MainContent_chkPurchaseType_1')]")
     private WebElement numberEIS;
@@ -88,6 +91,10 @@ public class DataPage {
     //локатор для ссылки на следующую страницу
     @FindBy(xpath = "//span[@class='ui-icon ui-icon-seek-next']")
     private WebElement nextPageBtn;
+
+    //локатор для ссылки на следующую страницу
+    @FindBy(xpath = "//td[@id='next_t_BaseMainContent_MainContent_jqgTrade_toppager']")
+    private WebElement nextWrappedPageBtn;
 
     //локатор для кнопки поиска
     @FindBy(xpath = "//*[contains(@id, 'BaseMainContent_MainContent_btnSearch')]")
