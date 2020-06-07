@@ -15,13 +15,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 public class SmallSmogTest {
-
-    private static final Logger LOGGER = Logger.getLogger(SmallSmogTest.class.getName());
+    public static Logger logger;
     public static DataPage dataPage;
     public static WebDriver driver;
     //имя атрибутов
@@ -39,6 +36,21 @@ public class SmallSmogTest {
 
     @BeforeClass
     public static void setup() {
+        //Logger
+        logger = Logger.getLogger("MyLog");
+        FileHandler fh;
+        try {
+            fh = new FileHandler("F:\\IntelliJ IDEA 2020.1.2\\HomeworkQA\\src\\test\\java\\ru\\rtstender\\log\\log.txt");
+            logger.addHandler(fh);
+            SimpleFormatter formatter = new SimpleFormatter();
+            fh.setFormatter(formatter);
+        } catch (SecurityException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //установка web-driver
         System.setProperty("webdriver.chrome.driver", ConfProperties.getProperty("chromedriver"));
         //сумма заказов
         sumOfAllItem = new Double(0);
@@ -90,7 +102,7 @@ public class SmallSmogTest {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("ui-paging-info")));
             //не получилось сделать подругому
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -115,22 +127,22 @@ public class SmallSmogTest {
                         priceString = cell.getText().replaceAll("[^0-9?!\\,]", "").replace(",", ".");
                         price = Double.parseDouble(priceString);
                         sumOfAllItem += price;
-                        LOGGER.fine("Стоимость закупки: " + String.valueOf(price));
+                        logger.info("Стоимость закупки: " + String.valueOf(price));
                     }
 
                     if(isExistEAS && canceled.equals(cell.getText())){
                         sumOfCanceledItem += price;
-                        LOGGER.fine("Закупка отменена.");
+                        logger.info("Закупка отменена.");
                     }
                 }
-                LOGGER.fine("+------------------------------------------------------+");
+                logger.info("+------------------------------------------------------+");
             }
             //перелистнем страницу
             dataPage.clickNextPage();
         }
 
         double result = sumOfAllItem - sumOfCanceledItem;
-        LOGGER.fine("Итоговая сумма: " + String.valueOf(result));
-        LOGGER.fine("Количество лотов: " + String.valueOf(lots));
+        logger.info("Итоговая сумма: " + String.valueOf(result));
+        logger.info("Количество лотов: " + String.valueOf(lots));
     }
 }

@@ -1,0 +1,274 @@
+июн 08, 2020 12:17:17 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:17 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 475343.0
+июн 08, 2020 12:17:17 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:18 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 184114.55
+июн 08, 2020 12:17:18 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:18 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 210585.6
+июн 08, 2020 12:17:18 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:18 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 263811.58
+июн 08, 2020 12:17:19 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:19 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 335500.0
+июн 08, 2020 12:17:19 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:19 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:19 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 981135.33
+июн 08, 2020 12:17:20 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:20 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 3192686.4
+июн 08, 2020 12:17:20 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:20 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 992163.0
+июн 08, 2020 12:17:21 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:21 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 2422500.0
+июн 08, 2020 12:17:21 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:21 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 191991.8
+июн 08, 2020 12:17:22 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:25 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:25 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 471505.88
+июн 08, 2020 12:17:25 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:26 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 5945518.8
+июн 08, 2020 12:17:26 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:26 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1541594.69
+июн 08, 2020 12:17:26 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:26 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 4250145.59
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 283200.0
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 408311.53
+июн 08, 2020 12:17:27 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:28 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:28 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 198555.67
+июн 08, 2020 12:17:28 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:28 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1076520.0
+июн 08, 2020 12:17:28 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:29 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 434865.0
+июн 08, 2020 12:17:29 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:29 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:29 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 381570.16
+июн 08, 2020 12:17:29 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:33 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:33 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 377510.0
+июн 08, 2020 12:17:33 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:33 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1262442.2
+июн 08, 2020 12:17:34 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:34 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 541000.0
+июн 08, 2020 12:17:34 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:34 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1420039.14
+июн 08, 2020 12:17:34 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:35 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 848432.0
+июн 08, 2020 12:17:35 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:35 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 704365.0
+июн 08, 2020 12:17:35 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:36 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 951931.67
+июн 08, 2020 12:17:36 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:36 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 91251.77
+июн 08, 2020 12:17:36 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:36 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 916478.0
+июн 08, 2020 12:17:37 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:37 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 875636.67
+июн 08, 2020 12:17:37 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:40 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:41 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1180000.0
+июн 08, 2020 12:17:41 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:41 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1779270.0
+июн 08, 2020 12:17:41 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 436400.0
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 121794.0
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:42 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 122000.0
+июн 08, 2020 12:17:43 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:43 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 49500.0
+июн 08, 2020 12:17:43 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:43 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 3245808.0
+июн 08, 2020 12:17:43 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:44 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 1209744.0
+июн 08, 2020 12:17:44 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:44 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 21000.0
+июн 08, 2020 12:17:44 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:45 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 482233.0
+июн 08, 2020 12:17:45 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:48 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:48 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 300000.0
+июн 08, 2020 12:17:49 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:49 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 150000.0
+июн 08, 2020 12:17:49 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:49 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 170130.0
+июн 08, 2020 12:17:49 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:50 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 2581768.66
+июн 08, 2020 12:17:50 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:50 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 300000.0
+июн 08, 2020 12:17:50 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:50 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 312500.0
+июн 08, 2020 12:17:51 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:51 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 100000.0
+июн 08, 2020 12:17:51 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:51 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 100000.0
+июн 08, 2020 12:17:51 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:52 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 159225.0
+июн 08, 2020 12:17:52 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:52 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 909333.32
+июн 08, 2020 12:17:52 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:56 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:56 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 164776.32
+июн 08, 2020 12:17:56 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:56 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 7837019.97
+июн 08, 2020 12:17:56 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Закупка отменена.
+июн 08, 2020 12:17:57 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:57 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 321829.49
+июн 08, 2020 12:17:57 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:57 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 252956.5
+июн 08, 2020 12:17:57 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:58 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 498285.0
+июн 08, 2020 12:17:58 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:58 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 579600.0
+июн 08, 2020 12:17:58 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:58 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 600000.0
+июн 08, 2020 12:17:59 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:59 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 225656.0
+июн 08, 2020 12:17:59 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:17:59 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 600000.0
+июн 08, 2020 12:18:00 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:18:00 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 117460.0
+июн 08, 2020 12:18:00 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:18:03 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:18:04 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Стоимость закупки: 595000.0
+июн 08, 2020 12:18:04 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: +------------------------------------------------------+
+июн 08, 2020 12:18:04 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Итоговая сумма: 4.405175220000002E7
+июн 08, 2020 12:18:04 AM ru.rtstender.SmallSmogTest getDataTest
+INFO: Количество лотов: 61
