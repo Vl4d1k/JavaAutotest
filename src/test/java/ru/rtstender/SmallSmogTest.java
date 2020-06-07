@@ -4,6 +4,7 @@ package ru.rtstender;
 import org.junit.Test;
 import org.junit.BeforeClass;
 
+import java.io.FileInputStream;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -11,12 +12,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 public class SmallSmogTest {
 
+    private static final Logger LOGGER = Logger.getLogger(SmallSmogTest.class.getName());
     public static DataPage dataPage;
     public static WebDriver driver;
     //имя атрибутов
@@ -76,14 +81,16 @@ public class SmallSmogTest {
         //цена текущей закупки
         double price = 0;
         String priceString = new String();
+        //класс, когда кнопка заблокирована
         String nextBtnDisabledClass = new String("ui-pg-button ui-corner-all ui-state-disabled");
+
         while( !nextBtnDisabledClass.equals(dataPage.getNextPageBtnClass()) ){
             //задержка для загрузки данных
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("sp_1_BaseMainContent_MainContent_jqgTrade_pager")));
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("ui-paging-info")));
             //не получилось сделать подругому
             try {
-                Thread.sleep(1000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -107,22 +114,23 @@ public class SmallSmogTest {
                     if(isExistEAS && attrNamePrice.equals(cell.getAttribute("aria-describedby"))) {
                         priceString = cell.getText().replaceAll("[^0-9?!\\,]", "").replace(",", ".");
                         price = Double.parseDouble(priceString);
-                        System.out.println(price);
                         sumOfAllItem += price;
+                        LOGGER.fine("Стоимость закупки: " + String.valueOf(price));
                     }
 
                     if(isExistEAS && canceled.equals(cell.getText())){
                         sumOfCanceledItem += price;
+                        LOGGER.fine("Закупка отменена.");
                     }
                 }
-                System.out.println("+------------------------------------------------------+");
+                LOGGER.fine("+------------------------------------------------------+");
             }
             //перелистнем страницу
             dataPage.clickNextPage();
         }
-        System.out.print("Итоговая сумма:");
-        System.out.println(sumOfAllItem - sumOfCanceledItem);
-        System.out.print("Количество лотов:");
-        System.out.print(lots);
+
+        double result = sumOfAllItem - sumOfCanceledItem;
+        LOGGER.fine("Итоговая сумма: " + String.valueOf(result));
+        LOGGER.fine("Количество лотов: " + String.valueOf(lots));
     }
 }
