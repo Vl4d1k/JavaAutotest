@@ -1,6 +1,5 @@
 package ru.rtstender;
 
-
 import org.junit.Test;
 import org.junit.BeforeClass;
 
@@ -21,26 +20,26 @@ public class SmallSmogTest {
     public static Logger logger;
     public static DataPage dataPage;
     public static WebDriver driver;
+
     //имя атрибутов
-    public static String attrNameForEAS;
-    public static String attrNamePrice ;
-    public static String attrNameCanceled;
+    public static String attrNameForEAS = "BaseMainContent_MainContent_jqgTrade_OosNumber";
+    public static String attrNamePrice = "BaseMainContent_MainContent_jqgTrade_StartPrice";
+    public static String attrNameCanceled = "BaseMainContent_MainContent_jqgTrade_LotStateString";
     //строка с тестом заказа, если он отменен
-    public static String canceled;
+    public static String canceled = "Отменена";
     //сумма всеъ закупок с номер ЕИС
-    public static Double sumOfAllItem;
+    public static Double sumOfAllItem = new Double(0);
     //сумма отменненых закупок
-    public static Double sumOfCanceledItem;
+    public static Double sumOfCanceledItem = new Double(0);
     //количество закупок
-    public static int lots;
+    public static int lots = new Integer(0);
 
     @BeforeClass
     public static void setup() {
-        //Logger
         logger = Logger.getLogger("MyLog");
-        FileHandler fh;
+
         try {
-            fh = new FileHandler("F:\\IntelliJ IDEA 2020.1.2\\HomeworkQA\\src\\test\\java\\ru\\rtstender\\log\\log.txt");
+            FileHandler fh = new FileHandler("./log/log.txt");
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
@@ -52,18 +51,10 @@ public class SmallSmogTest {
 
         //установка web-driver
         System.setProperty("webdriver.chrome.driver", ConfProperties.getProperty("chromedriver"));
-        //сумма заказов
-        sumOfAllItem = new Double(0);
-        sumOfCanceledItem = new Double(0);
-        lots = new Integer(0);
-        //создание экземпляра драйвера
+
         driver = new ChromeDriver();
         dataPage = new DataPage(driver);
-        //имя атрибутов
-        attrNameForEAS = "BaseMainContent_MainContent_jqgTrade_OosNumber";
-        attrNamePrice = "BaseMainContent_MainContent_jqgTrade_StartPrice";
-        attrNameCanceled = "BaseMainContent_MainContent_jqgTrade_LotStateString";
-        canceled = "Отменена";
+
         //окно разворачивается на полный экран
         driver.manage().window().maximize();
         //задержка на выполнение теста = 10 сек.
@@ -96,7 +87,7 @@ public class SmallSmogTest {
         //класс, когда кнопка заблокирована
         String nextBtnDisabledClass = new String("ui-pg-button ui-corner-all ui-state-disabled");
 
-        while( !nextBtnDisabledClass.equals(dataPage.getNextPageBtnClass()) ){
+        while (!nextBtnDisabledClass.equals(dataPage.getNextPageBtnClass())) {
             //задержка для загрузки данных
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("sp_1_BaseMainContent_MainContent_jqgTrade_pager")));
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("ui-paging-info")));
@@ -109,39 +100,40 @@ public class SmallSmogTest {
             //берем данные с таблицы
             WebElement table = driver.findElement(By.id("BaseMainContent_MainContent_jqgTrade"));
             //получаем элементы tr
-            List<WebElement> allRows = table.findElements(By.tagName("tr"));
+            List < WebElement > allRows = table.findElements(By.tagName("tr"));
             // Получаем колонки
-            for (WebElement row : allRows) {
-                List<WebElement> cells = row.findElements(By.tagName("td"));
+            for (WebElement row: allRows) {
+                List < WebElement > cells = row.findElements(By.tagName("td"));
                 isExistEAS = false;
-                for (WebElement cell : cells) {
+                for (WebElement cell: cells) {
 
                     //выбираем те элементы у которых есть номер ЕИС
-                    if( !isExistEAS && attrNameForEAS.equals(cell.getAttribute("aria-describedby")))
-                        if(cell.getText().length() != 0) {
+                    if (!isExistEAS && attrNameForEAS.equals(cell.getAttribute("aria-describedby")))
+                        if (cell.getText().length() != 0) {
                             isExistEAS = true;
                             lots++;
                         }
 
-                    if(isExistEAS && attrNamePrice.equals(cell.getAttribute("aria-describedby"))) {
+                    if (isExistEAS && attrNamePrice.equals(cell.getAttribute("aria-describedby"))) {
                         priceString = cell.getText().replaceAll("[^0-9?!\\,]", "").replace(",", ".");
                         price = Double.parseDouble(priceString);
                         sumOfAllItem += price;
                         logger.info("Стоимость закупки: " + String.valueOf(price));
                     }
 
-                    if(isExistEAS && canceled.equals(cell.getText())){
+                    if (isExistEAS && canceled.equals(cell.getText())) {
                         sumOfCanceledItem += price;
                         logger.info("Закупка отменена.");
                     }
                 }
                 logger.info("+------------------------------------------------------+");
             }
-            //перелистнем страницу
+            
             dataPage.clickNextPage();
         }
 
         double result = sumOfAllItem - sumOfCanceledItem;
+
         logger.info("Итоговая сумма: " + String.valueOf(result));
         logger.info("Количество лотов: " + String.valueOf(lots));
     }
